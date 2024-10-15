@@ -84,7 +84,7 @@ fun main(args: Array<String>) {
             } else {
                 "$ip: NO"
             }
-            writer.write(message)/
+            writer.write(message)
             writer.newLine()
         }
     }
