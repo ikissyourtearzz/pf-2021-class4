@@ -41,7 +41,7 @@ fun parseArgs(args: Array<String>): IPLookupArgs? {
     if (args.isEmpty()) return null
     val ipsFile = args[0]
     val iprsFiles = args.drop(1)
-    return IPLookupArgs(ipsFile, iprsFiles)
+    return IPLookupArgs(ipsFile, iprsFiles) //
 }
 
 fun loadQuery(filename: String): List<IPv4Addr> {
